@@ -25,7 +25,7 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Inherit from river device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
-PRODUCT_BRAND := motorola
+PRODUCT_BRAND := Motorola
 PRODUCT_DEVICE := river
 PRODUCT_MANUFACTURER := motorola
 PRODUCT_NAME := lineage_river
